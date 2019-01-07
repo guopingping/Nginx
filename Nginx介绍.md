@@ -1,4 +1,4 @@
 ```javaScript
 
-![Image Text](https://github.com/guopingping/Nginx/tree/master/image/chapter.png)
+![Image Text](https://github.com/guopingping/Nginx/blob/master/image/chapter.png)
 ```
