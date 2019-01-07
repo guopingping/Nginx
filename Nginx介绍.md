@@ -6,6 +6,7 @@ Nginx架构
 ```
 ![Image Text](https://github.com/guopingping/Nginx/blob/master/image/chapter.PNG)
 
+```
 master来管理worker进程，所以只需要与master进程通信就可以了。
 master进程会接收来自外界发来的信号，再根据信号做不同的事情。
 要控制nginx，只需要通过kill向master进程发送信号就行了，从容重启nginx或重新加载配置，服务是不中断的。
@@ -32,4 +33,3 @@ nginx基础概念：
 
 ```
 
-```
