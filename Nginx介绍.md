@@ -1,5 +1,5 @@
 ```javaScript
 
-![chapter-2-1](http://tengine.taobao.org/book/_images/chapter-2-1.PNG)
+![chapter](https://github.com/guopingping/Nginx/blob/master/image/chapter.PNG)
 
 ```
