@@ -107,9 +107,27 @@ log_subrequest on|off
 
 root
     指定请求的文档根目录
+    location /i/{
+        root /spool/w3
+    }
 
+server
+    server {
+        server_name 域名
+    }
 
+HTTP核心模块中可以使用的变量
 
+$arg_PARAMETER：该变量包含了当查询字符串时，GET请求可变参数的值；
+$args：这个变量等于请求行中的参数；
+$binary_remote_addr：二进制格式的客户端地址；
+$content_length：等于客户端请求头中content-length值；
+$content_type：等于客户端头中的content-type值；
+$cookie_COOKIE：客户端请求HEADER头中的cookie变量；
+$document_root：等于当前请求所属的root指令设置的文档根目录路径；
+$limist_rate：允许限制连接速率；
+$remote_addr：客户端ip地址；
+$remote_port：客户端端口；
 
 
 ```
