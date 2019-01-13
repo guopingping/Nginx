@@ -11,7 +11,7 @@ https://www.yiibai.com/nginx/beginners_guide.html
 
 nginx配置
 ----------------------------------------------------------
-```
+```javascript
 nginx.conf：
 
 #user  nobody;
